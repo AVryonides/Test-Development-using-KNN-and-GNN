@@ -13,8 +13,6 @@ Two models are implemented and compared:
 
 - **KNN baseline** for (1) regression on detectability (using a `log(1 + D)` target transform) and (2) classification into **EASY / MEDIUM / HARD** difficulty bands derived from circuit-specific percentiles.
 
-**project407_partB**
-
 - **Graph Neural Network (GCN)** using PyTorch Geometric for node-level regression on detectability, leveraging message passing over the circuit graph, with optional induced **E/M/H** classification for interpretability.
 
 The main script ties everything together, runs the full pipeline, and prints evaluation results (regression metrics and confusion matrices) for direct KNN vs. GNN comparison.
