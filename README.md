@@ -17,6 +17,4 @@ Two models are implemented and compared:
 
 - **Graph Neural Network (GCN)** using PyTorch Geometric for node-level regression on detectability, leveraging message passing over the circuit graph, with optional induced **E/M/H** classification for interpretability.
 
-**project407_partB**
-
 The main script ties everything together, runs the full pipeline, and prints evaluation results (regression metrics and confusion matrices) for direct KNN vs. GNN comparison.
